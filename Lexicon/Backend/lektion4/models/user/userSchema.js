@@ -1,7 +1,7 @@
 const mongodb = require('mongoose');
 
 const userSchema = mongodb.Schema({
-    _id: mongodb.Schema.Types.ObjectId,
+    _id:            mongodb.Schema.Types.ObjectId,
     firstName:      { type: String, required: true },
     lastName:       { type: String, required: true },
     email:          { type: String, required: true, unique: true},
@@ -11,4 +11,4 @@ const userSchema = mongodb.Schema({
     modified:       { type: Date, default: Date.now },
 })
 
-module.exports = mongodb.model('user', userSchema);
+module.exports = mongodb.model('user', userSchema)

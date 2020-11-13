@@ -14,7 +14,7 @@ exports.registerUser = (req,res) => {
                 message: "User E-mail already exists.",
             })
         }
-
+    
         const passwordSalt = bcrypt.genSaltSync(10);
         bcrypt.hash(req.body.password , passwordSalt, (err, hash) => {
             if(err) {
@@ -56,7 +56,7 @@ exports.loginUser = (req, res) => {
     userSchemaImport.findOne({ email: req.body.email })
     .then(user => {
         if(user === null) {
-            return res.status(404).json({
+            return res.status(404).json({ 
                 statusCode: 404,
                 status: false,
                 message: 'Incorrect email.'
@@ -85,8 +85,6 @@ exports.loginUser = (req, res) => {
                 status: false,
                 message: 'Unable to authenticate user.'
             })
-
         }
-
     })
 }
