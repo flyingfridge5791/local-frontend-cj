@@ -30,7 +30,7 @@ exports.createProduct = (req, res) => {
             return res.status(400).json({
                 statusCode: 400,
                 status: false,
-                message: 'Failed to create item. Item cannot be a duplicate of existing item.',
+                message: "Failed to create item. Item cannot be a duplicate of existing item.",
             })
         }
 
