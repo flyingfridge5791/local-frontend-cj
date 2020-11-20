@@ -5,7 +5,7 @@
             <appHero />
             <appFooter />
             
-      <!-- <appNavbar /> Båda dessa fungerar -->
+      
   
 
   </div> <!-- KAN EJ HA SYSKONELEMENT, BARA ETT MAIN PARENT ELEMENT INOM TEMPLATE -->

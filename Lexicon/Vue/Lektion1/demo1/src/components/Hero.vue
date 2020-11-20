@@ -7,7 +7,7 @@
 
         <!--Grid row-->
         <div class="row d-flex justify-content-center">
-
+            
             <!--Grid column-->
             <div class="col-xl-6 col-md-8">
 
