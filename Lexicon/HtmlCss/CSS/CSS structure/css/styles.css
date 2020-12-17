@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ddd;
+    /* background-color: #dddddd; */
+    /* samma som ovan */
+
+    color: #222;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.card-1 {
+    background-color: #222;
+    color: #fff;
+    width: 300px;
+    margin: 20px;
+    /* padding: 1.5em; */
+    border: 5px solid #0000ff;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-1 h2 {
+    font-size: 2rem;
+    background-color: #482768;
+    /* padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem; */
+    padding: 1rem 2rem;
+}
+.card-1 p {
+    font-size: 1rem;
+    margin: 1rem 2rem;
+}
+
+.card-2 {
+    border: 1px solid #222;
+    margin: 2rem 0;
+    padding: 2rem;
+    border-radius: 15px 5px 10px 30px;
+}
+.boll {
+    background-color: #222;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.card-3 {
+    margin-top: 2rem;
+    border: 2px dashed #156b15;
+    padding: 2rem;
+}
+.card-3 ul {
+    list-style: none;
+}
+.card-3 a {
+    text-decoration: none;
+    color: #222;
+}
+.card-3 a:hover {
+    color: green;
+}
+.card-3 li:nth-child(odd) {
+    background-color: #bbb;
+}
+
+.links {
+    margin-top: 2rem;
+}
+.link {
+    border: 1px solid gray;
+    width: 250px;
+    height: 50px;
+    display: inline-block;
+}
+
+.btn {
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.btn-primary {
+    background-color: rgb(71, 5, 60);
+    color: #ccc;
+}
+.btn-secondary {
+    background-color: rgb(90, 9, 9);
+    color: rgb(102, 255, 31);
+}
+.btn-warning {
+    background-color: red;
+    color: #fff;
+}
+.jockes-knapp, .hasses-knapp {
+    margin-top: 2rem;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #222;
+    color: #ccc;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+.jockes-knapp:hover {
+    background-color: #ccc;
+    color: #222;
+}
+.jockes-knapp:active {
+    background-color: #00ff00;
+}
+.hasses-knapp:hover {
+    background-color: #ccc;
+    color: #222;
+}
+.hasses-knapp:active {
+    background-color: #00ff00;
+}

@@ -1,0 +1,62 @@
+Color & Contrast
+------
+Fel:
+Använder ordagrant alla färger i frisk blandning och utan någon som helst
+konsekvent regel på när och hur.
+Förbättringar:
+Ändra produktnamnsfärgerna till en färg, Index kategorierna till en färg
+och all rubriktext till en potentiell tredje.
+
+
+
+White Space
+------
+Fel:
+För lite white space, allt är ihopklumpat och inte på ett strukturerat sätt.
+
+Förbättringar:
+Indrag till vänster och höger, så att informationen på sidan får plats utan att
+man måste scrolla horisontellt.
+
+
+Visual Hierarchy
+------
+Fel: Allt. Ingen aning om vad som är intressant, vad som tillhör vilken
+kategori, vad det är ordnat efter. Indexet expanderar inte och är uppdelat
+i på tok för många kategorier så man vet inte under vilken kategori det man letar
+efter kan finnas under.
+
+Förbättringar:
+Strukturera efter kategori och organisera efter en faktisk rutnätsstruktur,
+som helst kräver att man klickar på kategorin man är ute efter innan man blir
+attackerad av alla dessa produktbilder.
+
+
+
+
+Complexity vs Simplicity
+------
+Fel: Den är både komplex och simpel samtidigt då allt ligger direkt på startsidan
+med bilder, men samtidigt blir den komplex då plottret gör det omöjligt att hitta
+det man letar efter
+
+Förbättringar: Skapa faktiska länkar till andra sidor så att inte allt ligger
+på startsidan.
+
+
+
+Consistency
+------
+Fel: Det finns ingen struktur alls. bilder, font, färg ändras var man än tittar.
+Det enda som är konsekvent är bredden på sidan och att varenda centimeter är uppfylld
+med skit.
+
+Förbättringar:
+För många för att nämnas, men att göra grids med samma format kan vara en början.
+
+
+Scale
+------
+Fel: Sidan pågår för långt horisontellt.
+
+Förbättringar: sätt en procentuell max width som baseras på fönstrets storlek.

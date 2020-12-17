@@ -1,21 +1,23 @@
 <template>
-  
-  <div class="purple nav"> HELLO YO MOTHAFUCKA, FUNKA FÖR I HELVETE... </div>
-
+	<div class="purple nav">
+		
+	</div>
 </template>
 
 <script>
-export default {
 
-	name: 'Navbar',
+export default {
+          
+     name: 'Navbar',
 
 }
+
 </script>
 
 <style scoped>
 
 .purple{
-	background-color: purple;
+	background-color: purple ;
 }
 
 .nav {

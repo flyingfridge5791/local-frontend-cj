@@ -1,0 +1,35 @@
+/* Detta är inte det smidigaste sättet att arbeta på */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box {
+    border: 1px solid black;
+    padding: 2rem;
+    float: left;
+    width: 33.3%;
+}
+.clr {
+    clear: both;
+}
+#section-2 {
+    margin-top: 2rem;
+}
+.main {
+    border: 1px solid black;
+    width: 70%;
+    padding: 3rem 1rem;
+    float: left;
+}
+
+#section-2 aside {
+    background-color: #333;
+    color: #fff;
+    width: 30%;
+    float: right;
+}
+#section-2 li {
+    list-style: none;
+    padding: 1rem 3rem;
+}
