@@ -1,0 +1,343 @@
+
+*{ 
+    Margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.canvas {
+    width: 1920px;
+    height: 987px;
+    border: 1px solid black;
+    background-color: lightskyblue;
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+}
+
+    .cloud1, .cloud2, .cloud3, .cloud4, .cloud5, .cloud6 {
+
+        width: 300px;
+        height: 100px;
+        background-color: transparent;
+        position: fixed;
+        z-index: 1;
+        /* border: 1px solid black; */
+    }
+
+    .cloud1 {
+    left: 80px;
+    top: 25px;
+    z-index: 2;
+    }
+
+    .cloud2 {
+    left: 230px;
+    top: 0px;
+    z-index: 1;
+    }
+
+    .cloud3 {
+    left: 800px;
+    top: 100px;
+    }
+
+    .cloud4 {
+    right: 100px;
+    top: 20px;
+    z-index: 1;
+    }
+
+    .cloud5 {
+    right: 220px;
+    top: 55px;
+    }
+
+    .cloud6 {
+    right: -30px;
+    top: 67px;
+    z-index: 7;
+    }
+
+
+
+        .cloudPart1 {
+            width: 130px;
+            height:30px;
+            background-color: white;
+            border-radius: 50%;
+            position: relative;
+            left: 2px;
+            top: 30px;
+            border-top: 3px solid whitesmoke;
+            z-index: 1;
+        }
+
+        .cloudPart2 {
+            width: 150px;
+            height:30px;
+            background-color: white;
+            border-radius: 50%;
+            position: relative;
+            left: 50px;
+            top: -13px;
+            border-top: 3px solid whitesmoke;
+        }
+
+        .cloudPart3 {
+            width: 100px;
+            height:30px;
+            background-color: white;
+            border-radius: 50%;
+            position: relative;
+            left: 80px;
+            top: -30px;
+            z-index: 2;
+            border-top: 3px solid whitesmoke;
+            border-left: 3px solid whitesmoke;
+        }
+
+        .cloudPart4 {
+            width: 130px;
+            height:30px;
+            background-color: white;
+            border-radius: 50%;
+            position: relative;
+            left: 150px;
+            top: -57px;
+            border-top: 3px solid whitesmoke;
+            z-index: 2;
+        }
+
+        .cloudPart5 {
+            width: 130px;
+            height:25px;
+            background-color: white;
+            border-radius: 50%;
+            position: relative;
+            left: 90px;
+            top: -69px;
+            border-top: 3px solid whitesmoke;
+            z-index: 3;
+        }
+
+
+
+    .bkgrndmntns {
+        position: fixed;
+        z-index: 4;
+        background-color: transparent;
+        width: 1920px;
+        height:987px;
+        overflow: hidden;
+    }
+
+        .lmntnline {
+            z-index: 5;
+            position: relative;
+            left: -100px;
+            top: 400px;
+            height: 800px;
+            width: 500px;
+            border-left: 5px solid black;
+            border-top: 1px solid black;
+            border-radius: 15px;
+            transform: rotateZ(30deg);
+            background-color: snow;
+        }
+
+        .l2mntnline{
+            z-index: 6;
+            position: relative;
+            left: 100px;
+            bottom: 400px;
+            height: 1000px;
+            width: 1000px;
+            border-left: 0px solid rgb(19, 19, 19);
+            border-top: 1px solid black;
+            transform: rotateZ(45deg);
+            background-color: snow;
+            border-radius: 10px;
+            box-shadow: 4px 6px 0px 7px black;
+        }
+
+        .mntnInline {
+            z-index: 5;
+            height: 300px;
+            width: 100px;
+            position: absolute;
+            top: 280px;
+            left: 215px;
+            border-left: 1px solid black;
+            background-color: transparent;
+            transform: rotateZ(-35deg)
+        }
+
+        .mntnInline2 {
+            z-index: 7;
+            position: absolute;
+            left: 344px;
+            top: 142px;
+            height: 1200px;
+            width: 0px;
+            border: 1px solid black;
+            background-color: black;
+            transform: rotateZ(25deg);
+            box-shadow: -6px 20px 10px 3px gray;
+        }
+
+      
+
+        .mntnbottom {
+            z-index: 8;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            width: 700px;
+            height: 160px;
+            background-color: snow;
+            border-top: 2px solid gray;
+            border-left: 20px solid snow;
+        }
+
+        .mntnright1 {
+            z-index: 2;
+            position: absolute;
+            bottom: 100px;
+            right: -60px;
+            width: 300px;
+            height: 500px;
+            background-color: transparent;
+            border-top: 100px solid transparent;
+            border-left: 80px solid snow;
+            /* border-right: 20px solid snow; */
+            transform: rotateZ(10deg);
+            
+        }
+        .mntnright2 {
+            z-index: 2;
+            position: absolute;
+            bottom: -80px;
+            right: 120px;
+            width: 300px;
+            height: 800px;
+            /* background-color: snow; */
+            border-top: 180px solid transparent;
+            border-right: 80px solid snow;
+        }
+        .mntnright3 {
+            z-index: 2;
+            position: absolute;
+            bottom: -80px;
+            right: -180px;
+            width: 300px;
+            height: 800px;
+            /* background-color: snow; */
+            border-top: 250px solid transparent;
+            border-left: 80px solid snow;
+        }
+        .mntnright4 {
+            z-index: 0;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            column-width: 0rem;
+            width: 300px;
+            height: 1000px;
+            /* background-color: snow; */
+            border-top: 500px solid transparent;
+            border-right: 80px solid snow;
+        }
+
+        .snowFlake {
+            z-index: 1;
+            /* border: 1px solid black; */
+            width: 100px;
+            height: 100px;
+            position: fixed;
+            animation: fallingSnow 30s infinite;
+
+             }
+
+             @keyframes fallingSnow {
+                 from {top: -9px;}
+                 to {top: 1000px;}
+             }
+
+  
+
+        .snowFlake1 {
+            left: 800px;
+            /* top: -9px; */
+        }             
+        .snowFlake2 {
+            left: 1000px;
+            /* top: -9px; */
+        }             
+        .snowFlake3 {
+            left: 1200px;
+            /* top: -9px; */
+        }             
+        .snowFlake4 {
+            left: 1400px;
+            /* top: -9px; */
+        }             
+        .snowFlake5 {
+            right: 200px;
+            /* top: -9px; */
+        }             
+        .snowFlake6 {
+            right: 10px;
+            /* top: -9px; */
+        }             
+        .snowFlake7 {
+            right: 1250px;
+            /* top: -9px; */
+        }             
+        .snowFlake8 {
+            right: 1450px;
+            /* top: -9px; */
+        }             
+        .snowFlake9 {
+            right: 1750px;
+            /* top: -9px; */
+        }             
+
+        .snowFlakePart {
+            z-index: 1;
+            background-color: snow;
+            width: 3px;
+            height: 3px;
+            transform: rotateZ(45deg);
+            /* border: 3px solid white; */
+        }
+
+        .snowFlakePart1 {
+            position: relative;
+            top: 0px;
+            left: 3px;
+        }
+
+        .snowFlakePart2 {
+            position: relative;
+            top: 0px;
+            left: 0px;
+        }
+
+        .snowFlakePart3 {
+            position: relative;
+            top: -3px;
+            left: 3px;
+        }
+
+        .snowFlakePart4 {
+            position: relative;
+            top: -6px;
+            left: 6px;
+        }
+
+        .snowFlakePart5 {
+            position: relative;
+            top: -6px;
+            left: 3px;
+        }
